@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_legends"
+        android:layout_width="200dp"
+        android:layout_height="200dp"        android:layout_marginStart="108dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="108dp"
+        android:paddingTop="-30dp" />
+
+    <TextView
+        android:id="@+id/tv_namelegends"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_below="@+id/img_legends"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="65dp"
+
+        android:text="Name"
+        android:textAlignment="center"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/tv_quocgia"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_below="@+id/tv_namelegends"
+        android:textAlignment="center"
+
+        android:text="Brazil"
+        android:textSize="35dp" />
+
+
+</RelativeLayout>
